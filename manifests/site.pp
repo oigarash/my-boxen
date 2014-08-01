@@ -89,3 +89,7 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+include "java"
+include "dropbox"
+include "sublime"
