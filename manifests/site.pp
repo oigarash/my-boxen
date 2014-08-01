@@ -90,6 +90,9 @@ node default {
   }
 }
 
-include "java"
-include "dropbox"
-include "sublime"
+include java
+include dropbox
+include sublime_text
+sublime_text::package { 'Emmet':
+  source => 'sergeche/emmet-sublime'
+}

@@ -62,5 +62,5 @@ github "xquartz",     "1.1.1"
 
 github "java"
 github "dropbox"
-github "sublime"
+github "sublime_text"
 
